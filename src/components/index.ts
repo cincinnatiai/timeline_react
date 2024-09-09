@@ -1,4 +1,4 @@
 export {
   default as HorizontalTimeline,
-  TimelineItem,
 } from "./HorizontalTimeline";
+export type { TimelineItem } from "./HorizontalTimeline";
