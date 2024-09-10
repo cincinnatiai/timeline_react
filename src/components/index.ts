@@ -1,4 +1,1 @@
-export {
-  default as HorizontalTimeline,
-} from "./HorizontalTimeline";
-export type { TimelineItem } from "./HorizontalTimeline";
+export { default as HorizontalTimeline, TimelineItem } from "./timeline";

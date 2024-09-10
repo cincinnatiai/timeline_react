@@ -1,7 +1,7 @@
 import React from "react";
 import "./HorizontalTimeline.css";
 
-interface TimelineItem {
+export interface TimelineItem {
   id: string;
   number: number;
   title: string;
@@ -39,4 +39,3 @@ const HorizontalTimeline = ({
 };
 
 export default HorizontalTimeline;
-export type { TimelineItem };
